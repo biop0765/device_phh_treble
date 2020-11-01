@@ -85,11 +85,11 @@
        Like cpu.speeds.cluster0, there must be one of these present for
        each heterogeneous CPU cluster. -->
   <array name="cpu.active.cluster0">
-      <value>0.1</value>  <!-- ~100mA -->
+      <value>0.2</value>  <!-- ~100mA -->
   </array>
 
   <!-- Current when CPU is idle -->
-  <item name="cpu.idle">0.1</item>
+  <item name="cpu.idle">0.2</item>
 
   <!-- Memory bandwidth power values in mA at the rail. There must be one value
        for each bucket defined in the device tree. -->
